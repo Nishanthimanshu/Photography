@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+  }
+  body{
+    width:100%;
+    height:100vh;
+    display: flex;
+	flex-direction: column;
+  }
+
+  .content{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+  }
+
+
+  .column{
+    margin: 1em;
+	box-shadow: 1px 1px 1px 1px grey;
+	box-sizing: border-box;
+    background-color: yellow;
+    height:600px;
+    display: flex;
+	flex-direction: row;
+  }
+
+  .column1{
+      height: 45%;
+      width: 45%;
+      background-color: blue;
+      margin-right:1em;
+      margin-top:1em;
+      margin-botton:1em;
+      padding: 1em 1em 1em 1em;
+      display: flex;
+	  flex-direction: row;
+  }
+
+  .column2{
+      height: 45%;
+      width: 45%;
+      background-color: blue;
+      margin-left:1em;
+      margin-top:1em;
+      margin-botton:1em;
+      padding: 1em 1em 1em 1em;
+      display: flex;
+	  flex-direction: row;
+  }
+
+  .column3{
+      height:45%;
+      justify-content: center;
+      background-color: blue;
+      margin: 1em 1em 1em 1em;
+      padding: 1em 1em 1em 1em;
+      display: flex;
+	  flex-direction: column;
+  }
+
+  .column1-box2, .column2-box2{
+      width:45%;
+      background-color: blue;
+      margin: 1em 1em 1em 1em;
+      padding: 1em 1em 1em 1em;
+  }
+
+
+  @media (max-width: 768){
+	.column{
+		width: 100%;
+	}
+}
+​
+@media screen and (min-width: 769px){
+	.column{
+		width: 25%;
+	}
+}

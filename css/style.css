@@ -123,3 +123,15 @@ column img{
 .quote{
 	padding: 2em;
 }
+
+@media (max-width: 768){
+	.column{
+		width: 100%;
+	}
+}
+​
+@media screen and (min-width: 769px){
+	.column{
+		width: 30%;
+	}
+}
